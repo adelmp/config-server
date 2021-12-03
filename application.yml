@@ -1,0 +1,9 @@
+eurêka :
+  cliente :
+    inscrivez-vous-avec-eureka : vrai
+    fetch-registry : true
+    service-url :
+      defaultZone : ${EUREKA_URI:http://eureka-server:8761/eureka}
+    exemple :
+      preferIpAddress : vrai
+     
